@@ -15,7 +15,7 @@
             <ul>
                 <li><a class="active" href="#Index"><i class="fa fa-home" style="font-size:30px"></i>Home</a></li>
                 <li><a href="#Index"><i class="fa fa-money" style="font-size:30px"></i>Budget</a></li>
-                <li><a href="#Index"><i class="fa fa-list-alt" style="font-size:30px"></i>Board</a></li>
+                <li><a href="#Index"><i class="fa fa-list-alt" style="font-size:30px"></i>To do</a></li>
                 <li><a href="#Index"><i class="fa fa-video-camera" style="font-size:30px"></i>Movies</a></li>
                 <li><a href="#Index"><i class="fa fa-cogs" style="font-size:30px"></i>Tips & tricks</a></li>
                 <li class="logout" style="float:right"><a href="#Index"><i class="fa fa-unlock" style="font-size:30px"></i>Logout</a></li>
@@ -23,11 +23,21 @@
         </div>
     </header>
     <div>
-        @RenderBody()
+        <div class="content">
+            <div class="content main-content">
+                @RenderBody()
+            </div>
+            <div class="content notes">
+                Notes: <br />
+                -Paint the floor<br />
+                -Clean the windows<br />
+                -something<br />
+            </div>
+        </div>
     </div>
     <footer>
         <p>
-            @DateTime.Now.Date
+            
         </p>
     </footer>
 </body>
