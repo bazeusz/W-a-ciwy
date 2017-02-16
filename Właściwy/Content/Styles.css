@@ -50,7 +50,7 @@ i{
 
 .main-content{
     margin: 30px 0 0 30px;
-    padding: 10px;
+    padding: 10px ;
     background-color: #ededed;
     width: 63%;
     float:left;
@@ -60,7 +60,7 @@ i{
 
 .notes{
     margin: 30px 30px 0 0;
-    padding: 10px;
+    padding: 20px;
     background-color: #c9ebf8;
     width: 30%;
     float: right;
