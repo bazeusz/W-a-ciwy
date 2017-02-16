@@ -13,9 +13,9 @@
     <header>
         <div class="nav">
             <ul>
-                <li><a class="active" href="#Index"><i class="fa fa-home" style="font-size:30px"></i>Home</a></li>
-                <li><a href="#Index"><i class="fa fa-money" style="font-size:30px"></i>Budget</a></li>
-                <li><a href="#Index"><i class="fa fa-list-alt" style="font-size:30px"></i>To do</a></li>
+                <li><a class="active" href="~/Views/Home/Index.cshtml"><i class="fa fa-home" style="font-size:30px"></i>Home</a></li>
+                <li><a href="~/Views/Budget/Budget.cshtml"><i class="fa fa-money" style="font-size:30px"></i>Budget</a></li>
+                <li><a href="@Url.Action("Board","Board")"><span><i class="fa fa-list-alt" style="font-size:30px">Board</i></span></a></li>
                 <li><a href="#Index"><i class="fa fa-video-camera" style="font-size:30px"></i>Movies</a></li>
                 <li><a href="#Index"><i class="fa fa-cogs" style="font-size:30px"></i>Tips & tricks</a></li>
                 <li class="logout" style="float:right"><a href="#Index"><i class="fa fa-unlock" style="font-size:30px"></i>Logout</a></li>
