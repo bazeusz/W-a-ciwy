@@ -98,7 +98,9 @@
     <Compile Include="Controllers\BoardController.cs" />
     <Compile Include="Controllers\BudgetController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Controllers\NotesController.cs" />
+    <Compile Include="Controllers\TipsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -112,6 +114,8 @@
     <Content Include="Views\Notes\Notes.cshtml" />
     <Content Include="Views\Budget\Budget.cshtml" />
     <Content Include="Views\Board\Board.cshtml" />
+    <Content Include="Views\Movies\Movies.cshtml" />
+    <Content Include="Views\Tips\Tips.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
