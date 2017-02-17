@@ -68,6 +68,19 @@ i{
     border-radius: 20px;
 }
 
+.head{
+    margin: 30px 0 0 0;
+    padding: 10px ;
+    background-color: #bfbfbf;
+    border-radius: 20px;
+}
+
+.core{
+    margin: 30px 0 0 0;
+    padding: 10px ;
+    background-color: #eae7e7;
+    border-radius: 20px;
+}
 .core ul{
     width: 100%;
     list-style-type: none;
@@ -85,6 +98,7 @@ i{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border: solid;
 }
 
 .core ul li{
