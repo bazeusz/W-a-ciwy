@@ -67,3 +67,30 @@ i{
     display: inline-block;
     border-radius: 20px;
 }
+
+.core ul{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.core ul a{
+    display: block;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.core ul li{
+    float: left;
+}
+
+.core li a:hover{
+    background-color: none;
+}
