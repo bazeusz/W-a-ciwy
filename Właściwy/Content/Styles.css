@@ -52,7 +52,7 @@ i{
     margin: 30px 0 0 30px;
     padding: 10px ;
     background-color: #ededed;
-    width: 63%;
+    width: 61%;
     float:left;
     display: inline-block;
     border-radius: 20px;
@@ -107,4 +107,42 @@ i{
 
 .core li a:hover{
     background-color: none;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #c5f1ee;
+    color: black;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.place {
+    width: 32%;
+    display: inline-block;
+    margin: 5px 0 0 5px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.new {
+    background-color: #c9ebf8;
+}
+
+.progress {
+    background-color: #0790b8;
+}
+
+.done {
+    background-color: #bfbfbf;
 }

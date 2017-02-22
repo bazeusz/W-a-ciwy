@@ -4,6 +4,45 @@
     ViewBag.Title = "Board";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<div class="board-main">
+    <h1>Board</h1>
+    <div class="board-main head">
+        <label>Category: </label>
+        <select>
+            <option>All</option>
+            <option>Home</option>
+            <option>Wedding</option>
+            <option>Other</option>
+        </select>
+        <div class="board-main core">
+            <label>Title: </label>
+            <input />
+            <label>Description: </label>
+            <input />
+            <label>Deadline: </label>
+            <input type="date" />
+            <label>Category: </label>
+            <select>
+                <option>Home</option>
+                <option>Wedding</option>
+                <option>Other</option>
+            </select>
+            <input type="submit" />
+            <div class="board-main place new">
+                <h3>New</h3>
+                Find a wedding place
+            </div>
+            <div class="board-main place progress">
+                <h3>In progress</h3>
+                Blender
+            </div>
+            <div class="board-main place done">
+                <h3>Done</h3>
+                Birthday party
+            </div>
+        </div>
+    </div>
 
-<h2>Board</h2>
+</div>
+
 
