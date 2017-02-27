@@ -146,3 +146,21 @@ tr:nth-child(even){background-color: #f2f2f2}
 .done {
     background-color: #bfbfbf;
 }
+
+.watched{
+    margin: 30px 0 0 0;
+    padding: 10px ;
+    background-color: white;
+    border-radius: 20px;
+    width: 45%;
+    display: inline-block
+}
+
+.unwatched{
+    margin: 30px 0 0 0;
+    padding: 10px ;
+    background-color: #eae7e7;
+    border-radius: 20px;
+    width: 45%;
+    display: inline-block
+}
