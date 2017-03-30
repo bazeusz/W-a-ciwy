@@ -95,6 +95,7 @@
     </Content>
     <Content Include="Content\Styles.css" />
     <Content Include="Global.asax" />
+    <Content Include="Content\bg.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +103,7 @@
     <Compile Include="Controllers\BoardController.cs" />
     <Compile Include="Controllers\BudgetController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Controllers\NotesController.cs" />
     <Compile Include="Controllers\TipsController.cs" />
@@ -120,6 +122,8 @@
     <Content Include="Views\Board\Board.cshtml" />
     <Content Include="Views\Movies\Movies.cshtml" />
     <Content Include="Views\Tips\Tips.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
