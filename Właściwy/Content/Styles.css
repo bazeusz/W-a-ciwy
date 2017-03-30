@@ -2,7 +2,6 @@
     font-family: 'Segoe UI';
     margin: 0;
     padding: 0;
-    background-image: url(../Content/bg.jpg);
 }
 
 .nav ul{
@@ -178,5 +177,5 @@ tr:nth-child(even){
 }
 
 .login{
-    background: url("../Content/bg.jpg");
+    background-image: url("https://im5-c75.kxcdn.com/0/1978394/0/img60454972968.jpg");
 }
