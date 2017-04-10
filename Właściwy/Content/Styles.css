@@ -2,6 +2,7 @@
     font-family: 'Segoe UI';
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .nav ul{
@@ -177,5 +178,36 @@ tr:nth-child(even){
 }
 
 .login{
-    background-image: url("https://im5-c75.kxcdn.com/0/1978394/0/img60454972968.jpg");
+    background-image: url("../Content/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+} 
+
+.login-window{
+    margin: 15px 0 0 0;
+    padding: 10px ;
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    position: fixed;
+    top: 30%;
+    left: 35%;      
+}
+
+.login-core{
+    margin: 10px 0 5px 0;
+    padding: 10px ;
+    background-color: #d5d5d5;
+    border-radius: 20px;
+}
+
+.style1{
+    width: 80%;
+    height: 15%;
+    margin: 3px;
 }

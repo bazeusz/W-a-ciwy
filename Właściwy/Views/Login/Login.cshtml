@@ -1,11 +1,30 @@
-﻿
+﻿<!DOCTYPE html>
+
 @{
     ViewBag.Title = "Login";
     Layout = null;
 }
 
 <html>
-    <body background="../Content/bg.jpg">
-        <h2>Login!</h2>
-    </body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="login-window">
+            <div class="login-core">
+                <h2>ENTER CREDENTIALS</h2>
+                <input class="style1" placeholder="Login" /><br />
+                <input class="style1" placeholder="Password" type="Password" /><br />
+                <input type="submit" value="Login" onclick="location.href='@Url.Action("LoginButton","Login")'" />
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

@@ -13,5 +13,11 @@ namespace Właściwy.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult LoginButton()
+        {
+            return View();
+        }
     }
 }
